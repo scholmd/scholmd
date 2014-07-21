@@ -1,3 +1,29 @@
+---
+layout: article
+title: Common dolphin *Delphinus delphis* bycatch in New Zealand commercial trawl fisheries
+tags: [example, citation]
+author:
+ - family: Thompson
+   given: Finlay N.
+   affiliation: dragonfly
+   email: finlay@dragonfly.co.nz
+ - family: Abraham
+   given: Edward R.
+   affiliation: dragonfly
+ - family: Berkenbusch
+   given: Katrin
+   affiliation: dragonfly
+institution:
+ id: dragonfly
+ name: Dragonfly Science
+ address: PO Box 27535, Wellington 6141, New Zealand
+ url: http://www.dragonfly.co.nz
+abstract: Abstract
+---
+
+
+
+
 % Template for PLoS
 % Version 1.0 January 2009
 %
