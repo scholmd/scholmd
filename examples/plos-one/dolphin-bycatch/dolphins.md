@@ -21,7 +21,7 @@ organization:
  url: http://www.dragonfly.co.nz
 ---
 
-# Abstract
+# Abstract {-}
 
 Marine mammals are regularly reported as bycatch in commercial and artisanal
 fisheries, but data are often insufficient to allow assessment of these
@@ -50,7 +50,7 @@ assessment of the impact of these mortalities on the local common dolphin
 population, a clear recommendation from this study is the increasing of
 headline depth to reduce common dolphin captures.
 
-# Introduction
+# Introduction {-}
 Direct interactions between fisheries and marine mammals frequently occur when
 fishing operations overlap with the distribution of pinniped and cetacean
 populations [@chuenpagdee_collateral_2003, @shaughnessy_review_2003,
@@ -134,9 +134,9 @@ addition to obtaining total bycatch estimates, the modelling approach also
 allowed the identification of factors that were associated with common dolphin
 captures.
  
-# Methods
+# Methods {-}
 
-## Data sources
+## Data sources {-}
 
 The statistical model built to estimate common dolphin captures was based on
 fishing-effort and observer data for the 16-year period between 1 October 1995
@@ -171,7 +171,7 @@ divided into northern and southern sub-areas at latitude 39&deg;
 18' S.
  
 
-## Common dolphin capture model
+## Common dolphin capture model {-}
 
 The large number of tows without captures in the observer data resulted in an
 unbalanced data set owing to a disproportional high number of zeros. Three
@@ -266,7 +266,7 @@ comparison was made of the frequency distribution of the number of dolphins
 caught during capture events, between the observed data and predictions from
 samples from the Markov chains.
 
-## Covariate selection
+## Covariate selection {-}
 
 The model structure allowed for the dolphin capture event probability to depend
 on covariates. A step analysis was used to identify the covariates that had
@@ -284,9 +284,9 @@ bottom depth, and fishing depth, were all included both directly and as a
 log-transform (with one tonne and one hour added to catch weight and night
 hours, respectively, before performing the transformation). 
 
-# Results
+# Results {-}
 
-## Observed captures
+## Observed captures {-}
 
 Between 1995--96 and 2010--11, there were 135 observed common dolphin captures
 in commercial trawl fisheries in New Zealand waters.  The majority of observed
@@ -329,7 +329,7 @@ corresponded closely with the temporal pattern of fishing effort across months.
 The number of observed dolphin captures was high in December, and showed
 another, smaller peak in April and May, at a time when fishing effort was low.
 
-## Estimated common dolphin captures
+## Estimated common dolphin captures {-}
 
 Based on observer and effort data, the total number of common dolphin captures
 in the large-vessel mackerel fishery was estimated (Table
@@ -382,7 +382,7 @@ dolphin, with only one incident involving the simultaneous capture of two
 dolphins.
 
 
-## Model covariates
+## Model covariates {-}
 
 Selection of potential factors that may explain common dolphin captures
 confirmed the importance of the four covariates headline depth, tow duration,
@@ -426,7 +426,7 @@ Comparing the two sub-areas, tows in the southern sub-area had about half the
 capture event probability to those in the northern sub-area, indicated by the
 mean coefficient of 0.539.
 
-## The mackerel fleet
+## The mackerel fleet {-}
 
 There were 15 large vessels operating in the North Island west coast mackerel
 fishery, with seven vessels accounting for over 95% of the fishing effort in
@@ -461,7 +461,7 @@ was initially included in the model, it was not significant, and there was no
 evidence to suggest that particular vessels were better or worse in avoiding
 common dolphin bycatch. 
 
-# Discussion
+# Discussion {-}
 
 Between 1995 and 2011, common dolphin captures in the mackerel fishery occurred
 in most fishing years.  All 119 observed captures involved vessels
@@ -475,7 +475,7 @@ observed tows.
 
 
 
-## Estimated captures
+## Estimated captures {-}
 Common dolphin are frequently caught in trawl fisheries worldwide
 [@fertl_cetacean_1997], but few studies include sufficient data to estimate
 capture rates for an entire region or fishery, or to examine temporal trends.
@@ -574,7 +574,7 @@ off south-western England suggest [@boer_interactions_2012]. Both the relative
 abundance of common dolphin and the average group size were greater where
 trawlers were operating compared with areas where trawlers were absent.
 
-## Headline depth and other covariates
+## Headline depth and other covariates {-}
 
 In the present study, detailed data analysis identified the role of four
 covariates -- headline depth, light condition, sub-area and tow duration -- in
@@ -630,7 +630,7 @@ capture rate was not significantly different when the haul was between midnight
 and dawn on dark nights (a median capture rate ratio of 1.00 with a 95% c.i. of
 0.42 to 2.14).
 
-## Other fisheries
+## Other fisheries {-}
 
 In addition to incidental captures in pelagic trawl fisheries, common dolphin
 are also caught in inshore fisheries [@abraham_summary_98-08,
@@ -660,7 +660,7 @@ common dolphin in coastal waters makes them vulnerable to inshore fisheries,
 but scarcity of observer data precludes quantification of incidental captures
 in this fishing sector.
 
-## Conclusions
+## Conclusions {-}
 
 Common dolphin are globally distributed, with the population estimated to be in
 the millions, and a conservation status of "least concern"
@@ -691,12 +691,12 @@ incidental captures in New Zealand waters. In view of the importance of
 headline depth, it is recommended that nets are towed at headline depths >40 m
 to reduce the probability of incidental captures of common dolphin.
 
-## Supporting Information
+## Supporting Information {-}
 __Appendix S1__ BUGS code used for the  two-stage Bayesian hurdle model
 to estimate total common dolphin (_Delphinus delphis_) captures in New Zealand
 commercial trawl fisheries between 1995 and 2011.
 
-# Acknowledgments
+# Acknowledgments {-}
 This study was dependent on the many observers of the New Zealand Ministry for
 Primary Industries Observer Programme who collected the data, and this effort
 is gratefully acknowledged.  Thanks are also due to the Ministry for Primary
@@ -709,7 +709,7 @@ Conservation for his interest and useful feedback.  We are also grateful to
 Stephanie Rowe of the Department of Conservation and Anton van Helden of Museum
 of New Zealand Te Papa Tongarewa for help identifying dolphins.
 
-# Figure Legends
+# Figure Legends {-}
 
 __Commercial trawl effort in the west coast North Island region, New Zealand.__
 
@@ -752,8 +752,8 @@ proportion of tows in the north, __E__ proportion of tows in dark light
 conditions, and __F__ proportion of tows in black light conditions, for fishing
 years between 1 October 1995 and 30 September 2011.
 
-# Tables
+# Tables {-}
 
 TODO ...
 
-# References
+# References {-}
