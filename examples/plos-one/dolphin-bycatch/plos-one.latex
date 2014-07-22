@@ -1,0 +1,89 @@
+% Template for PLoS
+% Version 1.0 January 2009
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+
+\documentclass[10pt]{article}
+
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+\usepackage{color} 
+
+% Use doublespacing - comment out for single spacing
+%\usepackage{setspace} 
+%\doublespacing
+\usepackage[unicode=true]{hyperref}
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+
+% Bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+\usepackage[labelfont=bf,labelsep=period,justification=raggedright]{caption}
+
+% Use the PLoS provided bibtex style
+\bibliographystyle{resources/plos2009}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+% Leave date blank
+\date{}
+
+\pagestyle{myheadings}
+%% ** EDIT HERE **
+
+
+%% ** EDIT HERE **
+%% PLEASE INCLUDE ALL MACROS BELOW
+\newcommand{\degrees}{\ensuremath{^\circ}}
+\newcommand{\minutes}{\ensuremath{^\prime}}
+%% END MACROS SECTION
+
+\begin{document}
+
+\begin{flushleft}
+{\Large
+\textbf{$title$}}
+% Insert Author names, affiliations and corresponding author email.
+\\
+$for(author)$
+$author.given$ $author.family$ $$^{$author.affiliation$ $if(author.email)$,\ast$endif$}$$,
+$endfor$
+\\
+$for(organization)$
+\bf{$organization.id$} $organization.name$, $organization.address$
+$endfor$
+\\
+$for(author)$
+$if(author.email)$ $$\ast$$ E-mail: $author.email$ $endif$
+$endfor$
+
+\end{flushleft}
+
+$body$
+
+\end{document}
