@@ -37,6 +37,10 @@ A newer version of pandoc-citeproc is needed so you might as well install pandoc
     
     sudo apt-get install build-essential
     cabal install pandoc pandoc-citeproc -j
+    
+If the cabal directory is not on the path:
+
+    export PATH=$HOME/.cabal/bin:$PATH
 
 #### Other platforms
 
