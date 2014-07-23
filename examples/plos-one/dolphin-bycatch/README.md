@@ -37,6 +37,10 @@ A newer version of pandoc-citeproc is needed so you might as well install pandoc
     
     sudo apt-get install build-essential
     cabal install pandoc pandoc-citeproc -j
+    
+If the cabal directory is not on the path:
+
+    export PATH=$HOME/.cabal/bin:$PATH
 
 #### Other platforms
 
@@ -65,7 +69,7 @@ a Mac and harder (but not impossible) on windows.
 - __Write an article__ Some of the markdown features used here are:
 
     - `# Section {-}` the `-` in braces will suppres section numbering
-    - `[@citekey] for citations
+    - `[@citekey]` for citations
     - `&deg;` for degrees unicode symbol
     - Numbered lists `(@)` can have a tag `(@foo)` which can be used to refer
       to the item elsewhere.
