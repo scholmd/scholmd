@@ -207,9 +207,11 @@ the covariates, $x_{ic}$.  The contribution of each covariate, indexed by $c$,
 was governed by a regression coefficient, $\beta_c$, that was estimated by the
 model.  The logit transform of the capture event probability was defined as the
 sum of the year effect, $\lambda_{j[i]}$, and the covariates: 
-$$
-\textrm{logit}(\pi_i) =  \lambda_{j[i]} + \sum_c \beta_c x_{ic}.
-$$
+
+(@eqn1) $$
+        \textrm{logit}(\pi_i) =  \lambda_{j[i]} + \sum_c \beta_c x_{ic}. 
+        $$
+
 Diffuse normal priors were given to the regression coefficients, $\beta_c$, and
 to the mean of the year effects, $\lambda_j$.  A half-Cauchy prior, with a
 scale of 25, was given to the variance of the year effects. Uninformative
@@ -223,13 +225,10 @@ capture event occurred the number of dolphins caught must have been one or
 more). The probability that $y_i$ dolphins were captured on tow $i$ was given
 by 
 
-\begin{align*}
-\textrm{Pr}(y_i = y) &= \left\{
-\begin{array}{l l}
-(1 - \pi_i) & \quad \mbox{if} \quad y = 0 \\
-\pi_i{ e^{-\mu}\mu^y \over (1-e^{-\mu})y!} & \quad\mbox{if} \quad y > 0 .\\
-\end{array} \right.
-\end{align*}
+(@eqn2) $$
+        \textrm{Pr}(y_i = y) =  \left\{\begin{matrix} (1 - \pi_i) & \textrm{if} \:  y =
+        0\\ \pi_i \frac{e^{-\mu}\mu^y}{(1-e^{-\mu})y!} & \textrm{if} \: y > 0.
+        \end{matrix}\right. $$ 
 
 The size, $\mu$, was given a prior that was uniform between 0.5
 and 30.  It would be possible for the size of the truncated Poisson
@@ -242,9 +241,8 @@ vessel, $v$. The estimated total number of dolphins captured in a group,
 $D^t_{yv}$, was calculated as the sum of actual reported captures on observed
 tows, $d^o_{yv}$, and estimated captures on the unobserved tows, $D^e_{yv}$,
 
-$$
-D^t_{yv} = d^o_{yv} + D^e_{yv}.
-$$ 
+(@eqn3) $$ D^t_{yv} = d^o_{yv} + D^e_{yv}. $$ 
+
 Total captures in a year were obtained by summing the captures
 over all vessels fishing in that year, $D^t_y = \sum_v D^t_{yv}$.
 

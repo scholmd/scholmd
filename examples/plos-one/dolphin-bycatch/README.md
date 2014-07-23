@@ -67,6 +67,8 @@ a Mac and harder (but not impossible) on windows.
     - `# Section {-}` the `-` in braces will suppres section numbering
     - `[@citekey] for citations
     - `&deg;` for degrees unicode symbol
+    - Numbered lists `(@)` can have a tag `(@foo)` which can be used to refer
+      to the item elsewhere.
 
 ### Issues
 
@@ -86,8 +88,9 @@ inline html if you wish to be able to output both latex and html.
 
 __Workaround__ There is a lengthly discussion about this in a 
 [pandoc issue](https://github.com/jgm/pandoc/issues/813),
-but until this is resolved it will be necessary to handle this manually. This will
-be quite difficult for equations.
+but until this is resolved it will be necessary to handle this manually.
+Equations can be cross-referenced using the numbered list tag syntax, but
+this only places numbers on the left of the equation.
 
 #### Figures without captions
 
