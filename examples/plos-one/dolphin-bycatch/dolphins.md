@@ -166,7 +166,7 @@ dolphin captures have been observed. This area was enclosed by a line extending
 north along longitude 173&deg; 2.8' E, a line across Cook Strait
 (between North and South islands) at latitude 41&deg; S, boundary at
 171&deg; E, and  the boundary of New Zealand's EEZ (Figure
-fig:pel-trip-effort).
+1).
 To provide higher spatial resolution, the area was
 divided into northern and southern sub-areas at latitude 39&deg;
 18' S.
@@ -272,7 +272,7 @@ on covariates. A step analysis was used to identify the covariates that had
 explanatory power [@venables_modern_2002]. Maximum likelihood methods were
 used to fit a binomial generalised linear model to the observed capture events,
 trying different combinations of factors (see list of potential covariates in
-Table tab:potential_covariates).  At each stage of the analysis, the
+Table 1).  At each stage of the analysis, the
 model was fitted repeatedly, with each of the covariates included (or removed)
 in turn and selection of the covariate that produced the greatest reduction in
 the Akaike Information Criterion [@akaike_information_1974].  Steps
@@ -299,9 +299,9 @@ fishery involved 11 pilot whales _Globicephala_ spp. and 16 New Zealand
 fur seal _Arctocephalus forsteri_.
 
 There was a total of 23~499 tows reported by the large-vessel mackerel fishery
-over the 16-year study period (Table tab:dolphin-effort).  Over this
+over the 16-year study period (Table 2).  Over this
 time, trawl effort was initially low, but increased substantially between
-1999--00 and 2002--03 (Table tab:dolphin-effort). Since
+1999--00 and 2002--03 (Table 2). Since
 then, fishing effort has generally been around 2000 tows per year, with a
 decrease in trawl effort in the most recent fishing year (2010--11),
 when 1551 tows were fished. Observer coverage between 1995--96 and
@@ -311,14 +311,14 @@ of all tows observed in most fishing years.
 The 119 incidental captures of common dolphin occurred on 50 of the 2499
 observed tows.  All captures resulted in mortalities.  Typically more than one
 dolphin was caught per capture event, with two or three dolphins frequently
-caught at the same time (Figure fig:mean-of-poisson).  A maximum of nine
+caught at the same time (Figure 2).  A maximum of nine
 individuals was caught in a single incident.  There were 0.88 capture events
 per 100 tows, and an observed capture rate of 2.1 common dolphin per 100 tows
 across the entire study period.
 
 The spatial distribution of trawl effort in the large-vessel mackerel fishery
 extended along the North Island west coast, with a similar spatial extent in
-observer coverage (Figure fig:pel-trip-effort). Both fishing effort and
+observer coverage (Figure 1). Both fishing effort and
 observer coverage were similar in both sub-areas, and observed common dolphin
 captures occurred in shoreward zones of both sub-areas.  Throughout the fishing
 year, trawl effort was relatively high in October, and showed a marked peak in
@@ -332,7 +332,7 @@ another, smaller peak in April and May, at a time when fishing effort was low.
 
 Based on observer and effort data, the total number of common dolphin captures
 in the large-vessel mackerel fishery was estimated (Table
-tab:dolphin-effort). Over the entire reporting period, the number of
+2). Over the entire reporting period, the number of
 estimated common dolphin captures peaked at 141 (95% c.i.: 56 to 276) in
 2002--03, and remained relatively high (over 80 estimated common dolphin
 captures per fishing year) in the two subsequent fishing years.  These high
@@ -365,14 +365,14 @@ Bayesian model also predicted the number of common dolphin caught per capture
 event over the 16-year period.  This second stage was important, as most
 capture events involved multiple captures, most frequently two or three common
 dolphin, with groups of up to nine individuals observed caught at the same time
-(Figure fig:mean-of-poisson). The posterior distribution of the size of
+(Figure 2). The posterior distribution of the size of
 the zero-truncated Poisson distribution, $\mu$, had an approximately normal
 distribution, with a median value of 2.1 (95% c.i.: 1.7 to 2.6) common dolphin
 per capture event.
 
 Comparing observer data and model estimates of the number of common dolphin
 caught per capture event showed that observer data were well represented by the
-zero-truncated Poisson distribution (Figure fig:mean-of-poisson). All
+zero-truncated Poisson distribution (Figure 2). All
 observations were within the 95% confidence intervals of the model estimates,
 except for the single incident involving the capture of nine dolphins, which
 was less likely to occur in the model.  The 2010--11 fishing year was
@@ -394,7 +394,7 @@ covariates were included in the Bayesian model.
 
 Comparison of the observed and modelled data sets showed that the distributions
 of the selected covariates were representative of overall fishing effort
-(Figure fig:covariate_distributions).  Furthermore, observed common
+(Figure 4).  Furthermore, observed common
 dolphin captures were closely associated with the four covariates.  For
 headline depth, the highest number of observed captures was associated with
 headline depths between 10 and 40~m, with 83 (70%) of the total 119 observed
@@ -409,7 +409,7 @@ sub-area, with 74 (62%) observed captures occurring in this sub-area.
 
 The associated regression coefficients from the model fit were used to quantify
 the influence of the covariates on the probability of common dolphin captures
-(Table tab:beta-contributions).  Headline depth had a negative
+(Table 3).  Headline depth had a negative
 correlation with a mean coefficient of -0.033~m$^{-1}$, indicating that
 increasing the headline depth would decrease the probability of a common
 dolphin capture event.  An increase in headline depth by 21 metres would halve
@@ -431,7 +431,7 @@ There were 15 large vessels operating in the North Island west coast mackerel
 fishery, with seven vessels accounting for over 95% of the fishing effort in
 the 16-year period.  In general, the mackerel fishery was conducted in a
 coherent fleet,  with main fishing characteristics shared across the seven
-vessels (Figure fig:seven-vessel-characteristics).  Changes in the
+vessels (Figure 5).  Changes in the
 covariates such as headline depth and light condition occurred at the same time
 across vessels.
 
@@ -622,7 +622,7 @@ investigate the role of headline depth in relation to common dolphin captures,
 precluding direct comparisons with the findings here.  Because of the
 correlation between headline depth and time of day, the light condition factor
 only explained a relatively small fraction of the residual deviance.  The model
-showed (Table tab:beta-contributions) that the dolphin capture rate was
+showed (Table 3) that the dolphin capture rate was
 lower for fishing with hauls made in the day or on moonlit nights than at night
 (a median ratio of 0.17 with a 95% c.i, of 0.08 to 0.35). However, the dolphin
 capture rate was not significantly different when the haul was between midnight
