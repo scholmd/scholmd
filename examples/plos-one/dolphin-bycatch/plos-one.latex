@@ -24,7 +24,7 @@
 \usepackage{cite}
 
 \usepackage{color} 
-
+\usepackage{longtable,booktabs}
 % Use doublespacing - comment out for single spacing
 %\usepackage{setspace} 
 %\doublespacing
@@ -40,9 +40,6 @@
 % Bold the 'Figure #' in the caption and separate it with a period
 % Captions will be left justified
 \usepackage[labelfont=bf,labelsep=period,justification=raggedright]{caption}
-
-% Use the PLoS provided bibtex style
-\bibliographystyle{resources/plos2009}
 
 % Remove brackets from numbering in List of References
 \makeatletter

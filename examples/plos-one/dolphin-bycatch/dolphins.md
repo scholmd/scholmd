@@ -3,6 +3,7 @@ layout: article
 title: Common dolphin *Delphinus delphis* bycatch in New Zealand commercial trawl fisheries
 tags: [example, citation]
 bibliography: resources/dolphins.bib
+csl: resources/plos.csl
 author:
  - family: Thompson
    given: Finlay N.
@@ -165,7 +166,7 @@ dolphin captures have been observed. This area was enclosed by a line extending
 north along longitude 173&deg; 2.8' E, a line across Cook Strait
 (between North and South islands) at latitude 41&deg; S, boundary at
 171&deg; E, and  the boundary of New Zealand's EEZ (Figure
-\ref{fig:pel-trip-effort}).
+fig:pel-trip-effort).
 To provide higher spatial resolution, the area was
 divided into northern and southern sub-areas at latitude 39&deg;
 18' S.
@@ -208,7 +209,6 @@ model.  The logit transform of the capture event probability was defined as the
 sum of the year effect, $\lambda_{j[i]}$, and the covariates: 
 $$
 \textrm{logit}(\pi_i) =  \lambda_{j[i]} + \sum_c \beta_c x_{ic}.
-\label{eq:logit_pi}
 $$
 Diffuse normal priors were given to the regression coefficients, $\beta_c$, and
 to the mean of the year effects, $\lambda_j$.  A half-Cauchy prior, with a
@@ -244,8 +244,7 @@ tows, $d^o_{yv}$, and estimated captures on the unobserved tows, $D^e_{yv}$,
 
 $$
 D^t_{yv} = d^o_{yv} + D^e_{yv}.
-\label{eq:total-estimate}
-$$
+$$ 
 Total captures in a year were obtained by summing the captures
 over all vessels fishing in that year, $D^t_y = \sum_v D^t_{yv}$.
 
@@ -273,7 +272,7 @@ on covariates. A step analysis was used to identify the covariates that had
 explanatory power [@venables_modern_2002]. Maximum likelihood methods were
 used to fit a binomial generalised linear model to the observed capture events,
 trying different combinations of factors (see list of potential covariates in
-Table \ref{tab:potential_covariates}).  At each stage of the analysis, the
+Table tab:potential_covariates).  At each stage of the analysis, the
 model was fitted repeatedly, with each of the covariates included (or removed)
 in turn and selection of the covariate that produced the greatest reduction in
 the Akaike Information Criterion [@akaike_information_1974].  Steps
@@ -300,9 +299,9 @@ fishery involved 11 pilot whales _Globicephala_ spp. and 16 New Zealand
 fur seal _Arctocephalus forsteri_.
 
 There was a total of 23~499 tows reported by the large-vessel mackerel fishery
-over the 16-year study period (Table \ref{tab:dolphin-effort}).  Over this
+over the 16-year study period (Table tab:dolphin-effort).  Over this
 time, trawl effort was initially low, but increased substantially between
-1999--00 and 2002--03 (Table \ref{tab:dolphin-effort}). Since
+1999--00 and 2002--03 (Table tab:dolphin-effort). Since
 then, fishing effort has generally been around 2000 tows per year, with a
 decrease in trawl effort in the most recent fishing year (2010--11),
 when 1551 tows were fished. Observer coverage between 1995--96 and
@@ -312,19 +311,19 @@ of all tows observed in most fishing years.
 The 119 incidental captures of common dolphin occurred on 50 of the 2499
 observed tows.  All captures resulted in mortalities.  Typically more than one
 dolphin was caught per capture event, with two or three dolphins frequently
-caught at the same time (Figure \ref{fig:mean-of-poisson}).  A maximum of nine
+caught at the same time (Figure fig:mean-of-poisson).  A maximum of nine
 individuals was caught in a single incident.  There were 0.88 capture events
 per 100 tows, and an observed capture rate of 2.1 common dolphin per 100 tows
 across the entire study period.
 
 The spatial distribution of trawl effort in the large-vessel mackerel fishery
 extended along the North Island west coast, with a similar spatial extent in
-observer coverage (Figure \ref{fig:pel-trip-effort}). Both fishing effort and
+observer coverage (Figure fig:pel-trip-effort). Both fishing effort and
 observer coverage were similar in both sub-areas, and observed common dolphin
 captures occurred in shoreward zones of both sub-areas.  Throughout the fishing
 year, trawl effort was relatively high in October, and showed a marked peak in
 December, with approximately 20% and 30% of fishing effort occurring in these
-two months, respectively (Figure \ref{fig-dolphin-months}). Observer coverage
+two months, respectively (Figure fig-dolphin-months). Observer coverage
 corresponded closely with the temporal pattern of fishing effort across months.
 The number of observed dolphin captures was high in December, and showed
 another, smaller peak in April and May, at a time when fishing effort was low.
@@ -333,7 +332,7 @@ another, smaller peak in April and May, at a time when fishing effort was low.
 
 Based on observer and effort data, the total number of common dolphin captures
 in the large-vessel mackerel fishery was estimated (Table
-\ref{tab:dolphin-effort}). Over the entire reporting period, the number of
+tab:dolphin-effort). Over the entire reporting period, the number of
 estimated common dolphin captures peaked at 141 (95% c.i.: 56 to 276) in
 2002--03, and remained relatively high (over 80 estimated common dolphin
 captures per fishing year) in the two subsequent fishing years.  These high
@@ -366,14 +365,14 @@ Bayesian model also predicted the number of common dolphin caught per capture
 event over the 16-year period.  This second stage was important, as most
 capture events involved multiple captures, most frequently two or three common
 dolphin, with groups of up to nine individuals observed caught at the same time
-(Figure \ref{fig:mean-of-poisson}). The posterior distribution of the size of
+(Figure fig:mean-of-poisson). The posterior distribution of the size of
 the zero-truncated Poisson distribution, $\mu$, had an approximately normal
 distribution, with a median value of 2.1 (95% c.i.: 1.7 to 2.6) common dolphin
 per capture event.
 
 Comparing observer data and model estimates of the number of common dolphin
 caught per capture event showed that observer data were well represented by the
-zero-truncated Poisson distribution (Figure \ref{fig:mean-of-poisson}). All
+zero-truncated Poisson distribution (Figure fig:mean-of-poisson). All
 observations were within the 95% confidence intervals of the model estimates,
 except for the single incident involving the capture of nine dolphins, which
 was less likely to occur in the model.  The 2010--11 fishing year was
@@ -395,7 +394,7 @@ covariates were included in the Bayesian model.
 
 Comparison of the observed and modelled data sets showed that the distributions
 of the selected covariates were representative of overall fishing effort
-(Figure \ref{fig:covariate_distributions}).  Furthermore, observed common
+(Figure fig:covariate_distributions).  Furthermore, observed common
 dolphin captures were closely associated with the four covariates.  For
 headline depth, the highest number of observed captures was associated with
 headline depths between 10 and 40~m, with 83 (70%) of the total 119 observed
@@ -410,7 +409,7 @@ sub-area, with 74 (62%) observed captures occurring in this sub-area.
 
 The associated regression coefficients from the model fit were used to quantify
 the influence of the covariates on the probability of common dolphin captures
-(Table \ref{tab:beta-contributions}).  Headline depth had a negative
+(Table tab:beta-contributions).  Headline depth had a negative
 correlation with a mean coefficient of -0.033~m$^{-1}$, indicating that
 increasing the headline depth would decrease the probability of a common
 dolphin capture event.  An increase in headline depth by 21 metres would halve
@@ -432,7 +431,7 @@ There were 15 large vessels operating in the North Island west coast mackerel
 fishery, with seven vessels accounting for over 95% of the fishing effort in
 the 16-year period.  In general, the mackerel fishery was conducted in a
 coherent fleet,  with main fishing characteristics shared across the seven
-vessels (Figure \ref{fig:seven-vessel-characteristics}).  Changes in the
+vessels (Figure fig:seven-vessel-characteristics).  Changes in the
 covariates such as headline depth and light condition occurred at the same time
 across vessels.
 
@@ -623,7 +622,7 @@ investigate the role of headline depth in relation to common dolphin captures,
 precluding direct comparisons with the findings here.  Because of the
 correlation between headline depth and time of day, the light condition factor
 only explained a relatively small fraction of the residual deviance.  The model
-showed (Table \ref{tab:beta-contributions}) that the dolphin capture rate was
+showed (Table tab:beta-contributions) that the dolphin capture rate was
 lower for fishing with hauls made in the day or on moonlit nights than at night
 (a median ratio of 0.17 with a 95% c.i, of 0.08 to 0.35). However, the dolphin
 capture rate was not significantly different when the haul was between midnight
@@ -709,51 +708,135 @@ Conservation for his interest and useful feedback.  We are also grateful to
 Stephanie Rowe of the Department of Conservation and Anton van Helden of Museum
 of New Zealand Te Papa Tongarewa for help identifying dolphins.
 
+\clearpage
+
 # Figure Legends {-}
 
+![
 __Commercial trawl effort in the west coast North Island region, New Zealand.__
-
 Mean annual trawl effort (number of tows) of the commercial mackerel
 (_Trachurus_ spp. and _Scomber australasicus_) fishery between 1 October 1995
 and 30 September 2011, including locations of observed common dolphin
 (_Delphinus delphis_) captures.  Also indicated are the boundaries of the area
 modelled for estimating common dolphin captures.)
+]()
 
+![
 __Number of common dolphin _Delphinus delphis_ caught per capture event.__
-
 __A__ Posterior distribution of the size of the zero-truncated Poisson
 distribution, $\mu$, showing the probability density and trace of the two
 chains. __B__ Comparison of the predicted distribution of the number of common
 dolphin caught per capture event between the observed captures (solid line) and
 samples from the model posterior (boxplots indicating the median, quartiles,
 and 95% confidence interval of the distributions).
+]()
 
-__Monthly distribution of fishing effort and common dolphin (_Delphinus
-delphis_) captures.__
-
+![__Monthly distribution of fishing effort and common dolphin _Delphinus
+delphis_ captures.__
 Total trawl effort, observed effort and observed dolphin captures in the
 large-vessel mackerel fishery on the North Island's west coast, New Zealand,
 across the 16-year study period between   1 October 1995 and 30 September 2011.
+]()
 
-__Distribution of selected covariates for the period between 1 October 1995 and
+![__Distribution of selected covariates for the period between 1 October 1995 and
 30 September 2011.__
-
 __A__ Headline depth, __B__ tow duration, __C__ light condition, and __D__
 sub-area. The covariates were identified as explanatory factors of common
 dolphin (_Delphinus delphis_) captures in the large-vessel mackerel trawl
 fishery off the North Island west coast, New Zealand.  Total observed common
 dolphin captures are indicated above the bars.
+]()
 
-__Annual trends of fishing characteristics (covariates) for each of the seven
+![__Annual trends of fishing characteristics (covariates) for each of the seven
 main mackerel trawl vessels.__
-
 __A__ Trawl effort, __B__ median headline depth, __C__ tow duration, __D__
 proportion of tows in the north, __E__ proportion of tows in dark light
 conditions, and __F__ proportion of tows in black light conditions, for fishing
 years between 1 October 1995 and 30 September 2011.
+]()
+
+\clearpage
 
 # Tables {-}
 
-TODO ...
+-----------------------------------------------------------
+Covariate       Description
+--------------- -------------------------------------------
+Trawl speed     Fishing speed (knots) from the  Trawl Catch
+                Effort Processing Return (TCEPR) data.
+
+Trawl duration  The duration of tows (hours) from start and end 
+                times recorded on TCEPR forms.
+
+Fishing depth   The depth of the net ground line (metres).
+
+Headline height The height of the net opening (metres).
+
+Headline depth  The depth of the top of the net (metres), derived by
+                subtracting the headline height from the ground line 
+                depth (both recorded on TCEPR forms). Indicates the
+                depth of the top of the net.
+
+Bottom depth    Minimum depth at either the start or end positions of 
+                tows (metres), derived using ETOPO2v2 bathymetric data
+                [@smith_global_1997, @noaa_etopo2_2006].
+
+Depth factor    Bottom depth as a factor, with tows in water less than 
+                210 m defined as shallow, and other tows defined as deep.
+
+Catch weight    Total catch weight of each trawl (tonnes) as recorded 
+                on the TCEPR forms.
+
+Sub-area        The west coast North Island region divided into two sub-areas 
+                (north and south of 39&deg; 18' S) and each included as a factor variable. 
+
+Light condition A three-valued factor that classified tows according to the 
+                time of the haul and the phase of the moon. The three levels were 
+                set following initial exploration and were: light  (net hauled 
+                between dawn and dusk, or between dusk and midnight on a moonlit 
+                night), dark (net hauled between dusk and midnight on a dark 
+                night, or between midnight and dawn on a moonlit night), and 
+                black (net hauled between midnight and dawn on a dark night). 
+                The illumination of the moon and time of dawn and dusk were 
+                calculated using standard algorithms [@meeus_astronomical_1991]. 
+                The night was classified as moonlit if more than 17% of the 
+                moon's disc was illuminated.  Dawn and dusk were defined as when 
+                the centre of the sun's disk was 6\degrees\ below the horizon 
+                (civil dawn and dusk).
+
+Moon            Fractional illumination (percentage) of the moon's disc, calculated 
+illumination    using standard algorithms [@meeus_astronomical_1991].
+
+Night hours     The number of night hours during a trawl, calculated as the 
+                number of hours of the tow between civil dawn and dusk.
+
+Month           Months of the year as a factor variable.
+
+Season          A grouping of months into quarters (January to March, April 
+                to June, July to September, and October to December), included
+                as a factor variable.
+
+Nation          Factor indicating which flag each vessel was flying: Russia, 
+                New Zealand, Japan, Korea, or FOC (a flag of convenience).
+---------------------------------------------------------
+Table: _Potential covariates considered for inclusion in the model._
+Definition of variables that were included in the step analysis to
+select covariates for estimating common dolphin _Delphinus delphis_ bycatch 
+in a commercial trawl fishery in New Zealand waters.
+
+
+Covariate | Mean | 2.5% | 50% | 97.5%
+----------|-----:|-----:|----:|--------:
+Headline depth, $\beta_{headline}$ | -0.033 | -0.045 | -0.033 |  -0.022 
+Log tow duration, $\beta_{duration}$ | 1.470 | 0.700 | 1.462 | 2.285 
+Light condition, light (relative to dark), $\exp(\beta_{light})$ | 0.177 | 0.075 | 0.166 | 0.346
+Light condition, black (relative to dark), $\exp(\beta_{black})$ | 1.078 | 0.421 | 1.000 | 2.139
+Sub-area, south (relative to north), $\exp(\beta_{south})$ | 0.539 | 0.246 | 0.510 | 0.996
+
+Table: __Summary of the covariate regression coefficients.__
+Covariate regression coefficients presented as mean, 
+and the 2.5%, 50%, and 97.5% quantiles of the posterior distributions.
+The coefficients of the discrete factors have been exponentiated, so 
+that they are multiplicative, with a value of 1 indicating no effect.
 
 # References {-}
