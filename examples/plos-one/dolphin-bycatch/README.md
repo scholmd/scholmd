@@ -69,7 +69,7 @@ a Mac and harder (but not impossible) on windows.
 - __Write an article__ Some of the markdown features used here are:
 
     - `# Section {-}` the `-` in braces will suppres section numbering
-    - `[@citekey] for citations
+    - `[@citekey]` for citations
     - `&deg;` for degrees unicode symbol
 
 ### Issues
